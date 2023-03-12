@@ -21,7 +21,7 @@ public class MySource extends AbstractSource implements Configurable, PollableSo
     private Map<String, String> headers;
 
     /**
-     * 初始化信息
+     * 初始化信息，读取配置文件的值
      * @param context
      */
     @Override
